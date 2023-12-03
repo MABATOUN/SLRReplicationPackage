@@ -1,6 +1,6 @@
 # SLR_Replication_Package
 The file SLR-ReplicationPackage.xlsx contains the results of the papers' classification and the qualitative analysis of StackOverflow topics.
-The csv files were obtained using the following queries:
+The csv files were obtained using the following SQL queries in StackExchange Data Explorer database:
 
 ## Query2Results.csv:
 SELECT p.Id, p.Title, p.Tags, p.Score, p.CreationDate, p.ClosedDate, p.ViewCount, p.AnswerCount, p.CommentCount, u.DisplayName, u.Id 
